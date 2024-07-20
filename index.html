@@ -3,87 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Biodata</title>
+    <title>Bio-Data</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+        
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+            font-family: 'Montserrat', sans-serif;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
         }
-        h1, h2, h3 {
-            margin-bottom: 10px;
+        .container {
+            background: #fff;
+            padding: 30px;
+            max-width: 900px;
+            width: 100%;
+            border-radius: 12px;
+            display: flex;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .contact {
+        .left-section, .right-section {
+            padding: 20px;
+        }
+        .left-section {
+            background: #e0f7fa;
+            border-radius: 12px 0 0 12px;
+            width: 40%;
+            text-align: center;
+        }
+        .right-section {
+            background: #fff;
+            border-radius: 0 12px 12px 0;
+            width: 60%;
+        }
+        h1 {
+            color: #4a90e2;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        .bio-heading {
+            color: black;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        h2 {
+            color: #4a90e2;
             margin-bottom: 10px;
+            font-size: 20px;
+            border-bottom: 2px solid #4a90e2;
+            display: inline-block;
+            padding-bottom: 5px;
+            text-transform: uppercase;
         }
         .section {
             margin-bottom: 20px;
         }
-        .job-title {
-            font-weight: bold;
+        .section p {
+            margin: 8px 0;
+            line-height: 1.8;
+            font-size: 16px;
         }
-        .job-details {
-            margin-left: 20px;
+        .section p strong {
+            display: inline-block;
+            width: 160px;
+            color: #333;
+            font-weight: 500;
+        }
+        .contact-info, .family-info, .education-info, .professional-info {
+            background: #f9f9f1;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .footer img {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p class="contact">
-            Phone: [Your Phone Number]<br>
-            Email: [Your Email Address]<br>
-            LinkedIn: [Your LinkedIn Profile URL]
-        </p>
-    </header>
-    
-    <section class="section">
-        <h2>Objective</h2>
-        <p>[Optional summary of career goals or key skills]</p>
-    </section>
-    
-    <section class="section">
-        <h2>Education</h2>
-        <h3>[Degree]</h3>
-        <p>[Institution Name], [Year of Graduation]</p>
-    </section>
-    
-    <section class="section">
-        <h2>Work Experience</h2>
-        <div class="job-details">
-            <h3 class="job-title">[Job Title]</h3>
-            <p>[Company Name], [Location]<br>
-            [Dates of Employment]</p>
-            <ul>
-                <li>Responsibility 1</li>
-                <li>Responsibility 2</li>
-                <!-- Add more responsibilities as needed -->
-            </ul>
+    <div class="container">
+        <div class="left-section">
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p><strong>Phone:</strong> 6353632253</p>
+                <p><strong>Email:</strong> PM09092001@GMAIL.COM</p>
+                <p><strong>Address:</strong> BAVLA</p>
+            </div>
+            <div class="family-info">
+                <h2>Family</h2>
+                <p><strong>Father's Name:</strong> VAJUBHAI TRIKAMBHAI PRAJAPATI</p>
+                <p><strong>Father's Occupation:</strong> BUSINESS</p>
+                <p><strong>Mother's Name:</strong> RANJANBEN VAJUBHAI PRAJAPATI</p>
+                <p><strong>Mother's Occupation:</strong> HOUSEWIFE</p>
+            </div>
         </div>
-        
-        <!-- Add more work experience sections as needed -->
-    </section>
-    
-    <section class="section">
-        <h2>Skills</h2>
-        <ul>
-            <li>[Skill 1]</li>
-            <li>[Skill 2]</li>
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
-    
-    <section class="section">
-        <h2>Achievements and Awards</h2>
-        <ul>
-            <li>[Award 1]</li>
-            <li>[Award 2]</li>
-            <!-- Add more achievements and awards as needed -->
-        </ul>
-    </section>
-    
-    <footer>
-        <p>References available upon request</p>
-    </footer>
+        <div class="right-section">
+            <h1 class="bio-heading">Bio-Data</h1>
+            <h1>MAYUR VAJUBHAI PRAJAPATI</h1>
+            <div class="section about-me">
+                <h2>About Me</h2>
+                <p>Professional and educated individual seeking a suitable match. I have a strong academic background and a stable career. Looking for a life partner who is understanding, caring, and supportive.</p>
+            </div>
+            <div class="section education-info">
+                <h2>Education</h2>
+                <p><strong>Highest Qualification:</strong> M.COM</p>
+                <p><strong>School/College Name:</strong> GUJARAT UNIVERSITY</p>
+            </div>
+            <div class="section professional-info">
+                <h2>Professional</h2>
+                <p><strong>Company Name:</strong> SUNDEK INTERIO</p>
+                <p><strong>Job Title:</strong> ACCOUNT EXECUTIVE</p>
+                <p><strong>Annual Income:</strong> 21000</p>
+            </div>
+            <div class="section personal-details">
+                <h2>Personal Details</h2>
+                <p><strong>Date of Birth:</strong> 09-09-2001</p>
+                <p><strong>Height:</strong> 5.6</p>
+                <p><strong>Weight:</strong> 52 KG</p>
+                <p><strong>Caste:</strong> HINDU PRAJAPATI</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="https://raw.githubusercontent.com/Mayur992001/bio-data/main/Image/image.png" alt="Photo Icon" id="photo-icon">
+        <img src="https://raw.githubusercontent.com/Mayur992001/bio-data/main/Image/phone.png" alt="Contact Icon" id="contact-icon">
+        <img src="https://raw.githubusercontent.com/Mayur992001/bio-data/main/Image/location.png" alt="Location Icon" id="location-icon">
+    </div>
+
+    <script>
+        document.getElementById('photo-icon').addEventListener('click', function() {
+            window.open('https://photos.app.goo.gl/iN9hAPNFsaGcuTVi9', '_blank');
+        });
+
+        document.getElementById('contact-icon').addEventListener('click', function() {
+            window.location.href = 'tel:6353632253';
+            setTimeout(function() {
+                window.open('https://wa.me/6353632253')
+            }, 1000);
+        });
+
+        document.getElementById('location-icon').addEventListener('click', function() {
+            window.open('https://maps.app.goo.gl/YVoPcHT9L87hnbLQ9', '_blank');
+        });
+    </script>
 </body>
 </html>
